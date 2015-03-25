@@ -1,0 +1,28 @@
+.nav{
+	
+
+}
+
+.nav>li
+{
+	
+}
+
+.nav>li>a
+{
+	background-color: blue;
+	color:yellow;
+}
+.nav>li>a:hover{
+	
+	background-color: yellow;
+	color:blue;
+}
+.nav-pills>li>a{
+	border-radius: 0px !important;
+}
+.selected{
+	background-color: yellow !important;
+	color:blue !important;
+
+}
