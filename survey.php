@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
+    <link href="form1style.css" rel="stylesheet">
 
 
 </head>
@@ -27,17 +28,17 @@
         ?>
     <form action="" method="post">
         <fieldset>
-            <legend>Contact Us</legend>
-            <label>Name:<input type="name" name="name" placeholder="Jim Harbaugh" required/></label><br />
-            <label>Email:<input type="email" name="email" placeholder="jimharbaugh@umich.edu" required/></label><br />
+            <legend class ="legend">Contact Us</legend>
+            <label class = "info">Name:<input type="name" name="name" placeholder="Jim Harbaugh" required/></label><br />
+            <label class ="info">Email:<input type="email" name="email" placeholder="jimharbaugh@umich.edu" required/></label><br />
             
-            <legend>Year:</legend>
-            <input type="radio" name="year" value="Freshman"/>Freshman<br />
-            <input type="radio" name="year" value="Sophomore"/>Sophomore<br />
-            <input type="radio" name="year" value="Junior"/>Junior<br />
-            <input type="radio" name="year" value="Senior"/>Senior<br />
+            <legend class = "legend">Year:</legend>
+            <input class= "radio" type="radio" name="year" value="Freshman"/>Freshman<br />
+            <input class= "radio" type="radio" name="year" value="Sophomore"/>Sophomore<br />
+            <input class= "radio" type="radio" name="year" value="Junior"/>Junior<br />
+            <input class= "radio" type="radio" name="year" value="Senior"/>Senior<br />
 
-            <label>Major:<input type="major" name="major" placeholder="Major"></label><br />
+            <label class = "info">Major:<input type="major" name="major" placeholder="Major"></label><br />
             <label>Questions/Comments/Concerns:</label><br />
                 <textarea rows="4" cols="50"></textarea><br />
 
