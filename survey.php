@@ -16,11 +16,11 @@
 
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
-<<<<<<< HEAD
+
     <link href="form1style.css" rel="stylesheet">
-=======
+
     <link href="css/style2.css" rel="stylesheet">
->>>>>>> origin/master
+
 
 
 </head>
