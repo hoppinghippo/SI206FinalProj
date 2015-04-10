@@ -26,7 +26,10 @@
             include("header.php"); 
         ?>
 
- 
+        <?php 
+            $filename = basename(__FILE__);
+            include("footer.php"); 
+        ?>
 
 </body>
 

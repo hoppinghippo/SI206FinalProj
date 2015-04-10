@@ -1,4 +1,6 @@
 
+@import 'prettyPhoto.css';
+
 .nav{
 	
 
@@ -11,19 +13,166 @@
 
 .nav>li>a
 {
-	background-color: blue;
-	color:yellow;
+	border-top: 1px solid #ffcb05;
+	border-bottom: 1px solid #ffcb05;
+	color:#ffcb05;
 }
 .nav>li>a:hover{
 	
-	background-color: yellow;
-	color:blue;
+	background-color: #ffcb05 !important;
+	color:#00274c !important;
 }
 .nav-pills>li>a{
 	border-radius: 0px !important;
 }
 .selected{
-	background-color: yellow !important;
-	color:blue !important;
+	background-color: #ffcb05 !important;
+	color:#00274c !important;
 
+}
+
+.twitter {
+	float:right;
+}
+.twitter-timeline {
+	padding-right: 20px;
+	height:500px;
+}
+
+#right{
+    float: right;
+    padding-top: 90px; 
+    padding-right: 10px;
+}
+#left{
+    margin: 2%;
+    padding: 1%;
+    padding-right: 175px;
+}
+div{
+ 
+    border-radius: 25px;
+    color: white;
+    padding: 1%;
+    margin: 2%;
+}
+
+.content{
+	   border: 1px solid #ffcb05;
+
+}
+body{
+    background-color: #00274c;
+    color: white;
+}
+a{
+    color: #ffcb05;
+}
+h2{
+    margin: 2%;
+    padding: 1%;
+}
+h4{
+    color: #ffcb05;
+    text-decoration: underline;
+}
+
+label{
+	padding: 10px;
+	color: white;
+}
+input{
+	padding: 5px;
+	margin-left: 10px;
+	border: 1px solid #ffcb05;
+	border-radius: 3px;
+	background-color: #00274c;
+	color:#ffcb05;
+}
+input[type=checkbox], input[type=radio] {
+	padding: 10px;
+	margin-right: 10px
+}
+.legend{
+	color: white;
+}
+fieldset{
+	margin: 20px;
+}
+
+button{
+	background-color: #ffcb05;
+	color: #00274c;
+	border: 1px solid black;
+}
+footer{
+	bottom: 0px;
+	background-color: #ffcb05;
+	color: #00274c;
+	padding: 1%;
+	border-top: 1px solid black;
+	text-align: center;
+}
+footer>p>a{
+	color:#00274c;
+}
+
+@media (max-width: 600px) {
+	#right{
+		display: none;
+
+	}
+	#left{
+		padding-right: 5px;
+	}
+	.nav>li{
+		margin-top: -6px;
+	}
+	
+
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.centered {
+  margin: auto auto;
+  display: block;
+  width: 185px;
+  margin-bottom: 25px;
+}
+.thumbnail {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: 1px solid #444;
+}
+
+.thumbnails {
+    padding: 3%;
+}
+
+.thumbnail img {
+  opacity: .75;
+}
+.thumbnail img:hover {
+  opacity: 1;
+}
+
+
+.credits a {
+  margin-right: 15px;
+  color: #555;
+  border: 1px solid #000;
+  padding: 5px 15px;
+  background: rgba(0, 0, 0, 0.45);
+}
+.credits a:hover {
+  color: #999;
+  text-decoration: none;
+  background: #000;
+}
+
+li {
+    list-style-type:none;
 }
