@@ -54,14 +54,16 @@ h1{
 }
 div{
  
-    border-radius: 25px;
+    
     color: white;
-    padding: 1%;
-    margin: 2%;
+   
 }
 
 .content{
 	   border: 1px solid #ffcb05;
+	   border-radius: 25px;
+	   padding: 1%;
+    margin: 2%;
 
 }
 body{
