@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Harbaugh</title>
+    <title>Jim Harbaugh</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,6 +25,10 @@
             $filename = basename(__FILE__);
             include("header.php"); 
         ?>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GHzfzgrwKP0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_u8rmdXUzeo" frameborder="0" allowfullscreen></iframe>
 
         <?php 
             $filename = basename(__FILE__);

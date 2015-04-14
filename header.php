@@ -1,9 +1,7 @@
 
 <header>
 
-	<div class="row">
-		JIMMy Harbaug
-	</div>
+	<img id="logo" src="photos/header.jpg"></img>
 	<div class="row">
 		<ul class="nav nav-pills nav-justified">
 			<li>
@@ -31,7 +29,7 @@
 						echo "class=\"selected\"";
 					} 
 				?>
-				>Survey</a>
+				>Quiz</a>
 			</li>
 			<li>
 				<a href="photo.php"
