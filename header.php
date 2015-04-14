@@ -1,7 +1,7 @@
 
 <header>
 
-	<img id="logo" src="photos/header.jpg"></img>
+	<img id="logo" src="photos/header.jpg" alt="Banner of Harbaugh"></img>
 	<div class="row">
 		<ul class="nav nav-pills nav-justified">
 			<li>
