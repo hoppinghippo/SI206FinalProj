@@ -51,7 +51,12 @@
                 <input type="radio" name="year" value="Junior"/>Junior<br />
                 <input type="radio" name="year" value="Senior"/>Senior<br />
             </fieldset>
+            <fieldset>
+                <legend>Questions, Comments, Concerns?</legend>
+                <textarea name="comments"></textarea>
+            </fieldset>
             <input type = "submit" value ="Send data"/>
+
         </fieldset>
 
         </form> 

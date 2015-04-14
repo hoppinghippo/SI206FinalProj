@@ -20,6 +20,11 @@
 		$msg .="$name : $value\n";							//This is going to the email
 		$stringToAdd.="$value,";							//This is going to the file
 	}
+    foreach($_POST as $comments => $value) {
+		print "$comments : $value<br/>";						//This is going to the screen
+		$msg .="$comments : $value\n";							//This is going to the email
+		$stringToAdd.="$value,";							//This is going to the file
+	}
 	$stringToAdd.="\n";
 
 	fwrite($handle, $stringToAdd);
