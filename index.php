@@ -25,7 +25,11 @@
             $filename = basename(__FILE__);
             include("header.php"); 
         ?>
-
+        <div class="heading">
+        <h1>"THOSE WHO STAY WILL BE CHAMPIONS."</h1>
+        <p>-Bo Schambechler</p>
+    </div>
+        <h3>Welcome to our Jim Harbaugh fan page!</h3>
 
         <div class="container">
         <div class ="row">

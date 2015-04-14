@@ -40,9 +40,9 @@
         <form action="gotIt.php" method = "POST" onsubmit = "return checkEmail()">
             <fieldset>
                 <legend>Contact Us</legend>
-                <label>Name: <input type = "name" name = "name" value = "Your Name" required/></label>
-                <label>Email:<input type = "email" name = "email" id = "em" required/></label>
-                <label>Confirm Email:<input type = "email" name = "confirm" id = "em2" required/></label>
+                <label>Name: <input type = "name" name = "name" placeholder="Jim Harbaugh" required/></label>
+                <label>Email:<input type = "email" name = "email" id = "em" placeholder="jimharbaugh@umich.edu" required/></label>
+                <label>Confirm Email:<input type = "email" name = "confirm" id = "em2" placeholder="jimharbaugh@umich.edu"required/></label>
                 <label>Zip code:<input type = "text" name = "zip" pattern="[0-9]{5}" required placeholder = "48105"/></label>
             <fieldset>
                 <legend>Year:</legend>
