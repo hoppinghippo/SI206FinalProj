@@ -112,9 +112,8 @@
                 <p>Jim Harbaugh signed to be the Head Coach of the Michigan Wolverines football team in 2015 and has
                     started his journey to rebuild Michigan's football program back to what it has been in the past.
                 </p>
-
-
-    </section>
+</div>
+</section>
 
         <?php 
             $filename = basename(__FILE__);
